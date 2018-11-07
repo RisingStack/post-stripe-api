@@ -1,0 +1,22 @@
+{
+  "name": "webshop-stripe-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/nodemon"
+  },
+  "author": "Roland Szoke",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "express": "4.16.4",
+    "stripe": "6.13.0"
+  },
+  "devDependencies": {
+    "cors": "2.8.5",
+    "helmet": "3.14.0",
+    "nodemon": "1.18.6"
+  }
+}
